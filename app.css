@@ -2,29 +2,30 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
     font-size: 20px;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     margin: 5px;
 }
 
 
 :root {
     --white: #FFF;
-    --black: #000; 
-    --green: #94ff5f; 
-    --lightgreen: #b0ff89; 
-    --darkgreen: #3b5b2a; 
+    --black: #000;
+    --green: #94ff5f;
+    --lightgreen: #b0ff89;
+    --darkgreen: #3b5b2a;
     --darkestgreen: #203316;
-    --softgreen: #98cc7f; 
+    --softgreen: #98cc7f;
     --blue: #25c8ed;
     --orange: #ffaa00;
     --yellow: #f9d938;
 }
 
-/* misc */
+/* background */
 body {
     background-color: var(--darkestgreen);
 }
 
+/* main */
 .select {
     display: flex;
     justify-content: center;
@@ -33,9 +34,10 @@ body {
     border-radius: 5px;
     font-size: 30px;
 }
-        option {
-            background-color: #98cc7f;
-        }
+
+option {
+    background-color: #98cc7f;
+}
 
 input {
     background-color: var(--softgreen);
@@ -55,4 +57,30 @@ input {
 .print {
     background-color: var(--lightgreen);
     color: var(--darkestgreen);
+}
+
+
+/* actually misc */
+.note {
+    color: var(--white);
+}
+
+img {
+    width: 100%;
+}
+
+/* overlay absolute */
+/* top left right bottom */
+.name-here {
+    color: var(--white);
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.date-text {
+    color: var(--white);
+    position: absolute;
+    top: 65%;
+    left: 45%;
 }
