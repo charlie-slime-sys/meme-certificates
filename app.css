@@ -1,0 +1,25 @@
+:root {
+    --white: #FFF;
+    --black: #000; 
+    --green: #94ff5f; 
+    --lightgreen: #b0ff89; 
+    --darkgreen: #3b5b2a; 
+    --darkestgreen: #203316;
+    --softgreen: #98cc7f; 
+    --blue: #25c8ed;
+    --orange: #ffaa00;
+    --yellow: #f9d938;
+}
+
+/* misc */
+body {
+    background-color: var(--darkestgreen);
+}
+
+select {
+    color: var(--darkgreen);
+    background-color: var(--green);
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
