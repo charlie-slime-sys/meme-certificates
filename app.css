@@ -2,6 +2,8 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
     font-size: 20px;
+    box-sizing: border-box;    
+    margin: 5px;
 }
 
 
@@ -34,7 +36,7 @@ body {
         option {
             background-color: #98cc7f;
         }
-        
+
 input {
     background-color: var(--softgreen);
     color: var(--darkestgreen);
@@ -42,6 +44,7 @@ input {
 
 ::placeholder {
     text-align: center;
+    color: var(--darkgreen);
 }
 
 .apply {
