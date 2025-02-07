@@ -1,3 +1,10 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
 :root {
     --white: #FFF;
     --black: #000; 
@@ -16,10 +23,33 @@ body {
     background-color: var(--darkestgreen);
 }
 
-select {
+.select {
+    display: flex;
+    justify-content: center;
     color: var(--darkgreen);
     background-color: var(--green);
     border-radius: 5px;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+}
+        option {
+            background-color: #98cc7f;
+        }
+        
+input {
+    background-color: var(--softgreen);
+    color: var(--darkestgreen);
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.apply {
+    background-color: var(--lightgreen);
+    color: var(--darkestgreen);
+}
+
+.print {
+    background-color: var(--lightgreen);
+    color: var(--darkestgreen);
 }
