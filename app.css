@@ -66,7 +66,7 @@ input {
 }
 
 img {
-    width: 100%;
+    width: 80%;
 }
 
 /* overlay absolute */
@@ -74,13 +74,13 @@ img {
 .name-here {
     color: var(--white);
     position: absolute;
-    top: 60%;
-    left: 45%;
+    top: 90%;
+    left: 36%;
 }
 
 .date-text {
     color: var(--white);
     position: absolute;
-    top: 65%;
-    left: 45%;
+    top: 96%;
+    left: 36%;
 }
